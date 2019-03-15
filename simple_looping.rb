@@ -36,6 +36,7 @@ def while_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
   number_of_times = 0
   while number_of_times <= 7
+  number_of_times += 1
   puts phrase
 end
 end
